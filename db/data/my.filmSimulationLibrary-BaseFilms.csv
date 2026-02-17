@@ -1,1 +1,11 @@
-Provia,Astia,Velvia,Pro.Neg High,Pro.Neg Standard,Monochrome,Monochrome Yellow,Monochrome Red,Monochrome Green,Sepia
+ID;name
+PROVIA;Provia
+ASTIA;Astia
+VELVIA;Velvia
+PRONEG_H;Pro.Neg High
+PRONEG_S;Pro.Neg Standard
+MONO;Monochrome
+MONO_Y;Monochrome Yellow
+MONO_R;Monochrome Red
+MONO_G;Monochrome Green
+SEPIA;Sepia
