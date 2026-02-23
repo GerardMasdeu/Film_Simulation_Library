@@ -1,7 +1,7 @@
 {
   "_version": "1.58.0",
   "sap.app": {
-    "id": "com.gerardmasdeu.filmsimulationlibrary",
+    "id": "my.filmSimulation.library",
     "type": "application",
     "title": "Film Simulation Library",
     "applicationVersion": {
@@ -13,7 +13,7 @@
   },
   "sap.ui5": {
     "rootView": {
-      "viewName": "com.gerardmasdeu.filmsimulationlibrary.view.App",
+      "viewName": "my.filmSimulation.library.view.App",
       "type": "XML",
       "async": true,
       "id": "app"

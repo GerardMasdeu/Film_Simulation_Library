@@ -15,6 +15,9 @@
   "cds": {
     "requires": {
       "db": "sqlite"
+    },
+    "folders": {
+      "app": "webapp/"
     }
   }
 }
