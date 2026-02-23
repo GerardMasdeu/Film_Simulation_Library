@@ -2,6 +2,14 @@
   "name": "film_simulation_library",
   "version": "1.0.0",
   "description": "Welcome to your new CAP project.",
+  "homepage": "https://github.com/GerardMasdeu/Film_Simulation_Library#readme",
+  "bugs": {
+    "url": "https://github.com/GerardMasdeu/Film_Simulation_Library/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GerardMasdeu/Film_Simulation_Library.git"
+  },
   "license": "ISC",
   "author": "",
   "type": "commonjs",
@@ -11,5 +19,6 @@
   },
   "dependencies": {
     "@ui5/cli": "^4.0.43"
-  }
+  },
+  "devDependencies": {}
 }
