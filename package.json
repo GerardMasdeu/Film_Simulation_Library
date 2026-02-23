@@ -18,7 +18,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@ui5/cli": "^4.0.43"
-  },
-  "devDependencies": {}
+    "@cap-js/sqlite": "^2.1.3",
+    "@ui5/cli": "^3.3.0"
+  }
 }
