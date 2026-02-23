@@ -1,24 +1,20 @@
 {
   "name": "film_simulation_library",
   "version": "1.0.0",
-  "description": "Welcome to your new CAP project.",
-  "homepage": "https://github.com/GerardMasdeu/Film_Simulation_Library#readme",
-  "bugs": {
-    "url": "https://github.com/GerardMasdeu/Film_Simulation_Library/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/GerardMasdeu/Film_Simulation_Library.git"
-  },
-  "license": "ISC",
-  "author": "",
-  "type": "commonjs",
-  "main": "index.js",
+  "description": "Welcome to my Film Simulation Library.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "cds watch"
   },
   "dependencies": {
-    "@cap-js/sqlite": "^2.1.3",
-    "@ui5/cli": "^3.3.0"
+    "@sap/cds": "^9.7.1"
+  },
+  "devDependencies": {
+    "@sap/cds-dk": "^9.7.2",
+    "@ui5/cli": "4.0.44"
+  },
+  "cds": {
+    "requires": {
+      "db": "sqlite"
+    }
   }
 }
