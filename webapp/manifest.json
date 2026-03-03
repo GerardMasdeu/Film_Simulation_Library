@@ -9,9 +9,18 @@
     }
   },
   "sap.ui": {
-    "technology": "UI5"
+    "technology": "UI5",
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": false,
+      "phone": false
+    }
   },
   "sap.ui5": {
+    "contentDensities": {
+      "compact": true,
+      "cozy": true
+    },
     "rootView": {
       "viewName": "my.filmSimulation.library.view.App",
       "type": "XML",

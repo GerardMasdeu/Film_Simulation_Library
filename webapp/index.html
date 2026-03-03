@@ -11,13 +11,23 @@
     data-sap-ui-resourceroots='{"my.filmSimulation.library": "./"}'
     data-sap-ui-compatVersion="edge"
     data-sap-ui-async="true"
+    data-sap-ui-preload=""
     data-sap-ui-oninit="module:sap/ui/core/ComponentSupport">
     </script>
+        <style>
+            html,
+            body {
+                height: 100%;
+            }
+        </style>
 </head>
-<body class="sapUiBody sapUiSizeCompact" id="content">
+
+<body class="sapUiBody sapUiSizeCozy" id="content">
     <div data-sap-ui-component
     data-name="my.filmSimulation.library"
+    data-height="100%"
     data-id="container"
+    style="height: 100%"
     data-settings='{"id" : "my.filmSimulation.library"}'
     ></div>
     
