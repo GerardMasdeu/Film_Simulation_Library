@@ -1,0 +1,9 @@
+<core:FragmentDefinition xmlns="sap.m"
+    xmlns:core="sap.ui.core">
+    <Dialog id="createSimulationDialog" title="Create New Simulation">
+        <buttons>
+            <Button text="Cancel" press="onCancelCreate"/>
+            <Button text="Create" type="Emphasized" press="onConfirmCreate"/>
+        </buttons>
+    </Dialog>
+</core:FragmentDefinition>
