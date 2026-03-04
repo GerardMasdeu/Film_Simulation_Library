@@ -44,11 +44,24 @@ sap.ui.define(
           oDialog.close();
         }
       },
+      // Resets the creation model to clear any data entered in the dialog
       _resetCreationModel() {
         const oModel = this.getView().getModel("creation");
         if (oModel) {
           oModel.setData({});
         }
+      },
+
+      // Changing Theme of the application
+      onThemeSwitch(oEvent) {
+        const isDarkThemeActive = oEvent.getParameter("pressed");
+        this._applyTheme(isDarkThemeActive);
+      },
+
+      // Logic to set and determine the theme of the application
+      _applyTheme(isDarkThemeActive) {
+        const sTheme = isDarkThemeActive ? "sap_horizon_dark" : "sap_horizon";
+        sap.ui.getCore().applyTheme(sTheme);
       },
     });
   },
