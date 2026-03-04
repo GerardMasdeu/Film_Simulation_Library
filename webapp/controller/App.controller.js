@@ -11,8 +11,12 @@ sap.ui.define(
       //This does the the loading and opening of the Creation fragment
       async _openCreationDialog() {
         try {
-          const oDialog = await this._loadcreationFragment();
-          this._prepareDiolog(oDialog);
+          let oDialog = this.byId("createSimulationDialog");
+          // If the dialog is not already loaded, load it and prepare it
+          if (!oDialog) {
+            oDialog = await this._loadcreationFragment();
+            this._prepareDialog(oDialog);
+          }
           oDialog.open();
         } catch (error) {
           console.error("Error loading fragment:", error);
@@ -26,7 +30,7 @@ sap.ui.define(
         });
       },
       //Prepares the dialog by adding it as a dependent to the view
-      _prepareDiolog(oDialog) {
+      _prepareDialog(oDialog) {
         this.getView().addDependent(oDialog);
       },
       //Event handler for the Cancel button in the creation dialog.
